@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageButton renders correctly 1`] = `
+<img
+  alt="alt-text"
+  className="css-class-name"
+  src="test.png"
+/>
+`;

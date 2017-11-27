@@ -1,6 +1,6 @@
 {
   "name": "fdmg-ts-react-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ReactJS Image component",
   "main": "dist/Image.js",
   "types": "dist/Image.d.ts",

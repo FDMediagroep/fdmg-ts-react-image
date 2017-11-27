@@ -20,18 +20,6 @@ export default class Image extends React.Component<Props, any> {
         console.info('Image component', props);
     }
 
-    componentDidMount() {
-        console.info('Image mounted');
-    }
-        
-    componentWillUnmount() {
-        console.info('Image will unmount');
-    }
-
-    componentWillReceiveProps(nextProps) {
-        console.info('Image next props', nextProps);
-    }
-
     render() {
         return (
             <img 

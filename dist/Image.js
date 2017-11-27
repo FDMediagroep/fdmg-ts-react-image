@@ -22,15 +22,6 @@ var Image = /** @class */ (function (_super) {
         console.info('Image component', props);
         return _this;
     }
-    Image.prototype.componentDidMount = function () {
-        console.info('Image mounted');
-    };
-    Image.prototype.componentWillUnmount = function () {
-        console.info('Image will unmount');
-    };
-    Image.prototype.componentWillReceiveProps = function (nextProps) {
-        console.info('Image next props', nextProps);
-    };
     Image.prototype.render = function () {
         return (React.createElement("img", { src: this.props.src, alt: this.props.alt, className: this.props.className }));
     };

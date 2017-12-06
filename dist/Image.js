@@ -14,17 +14,17 @@ var React = require("react");
 /**
  * Renders an image.
  */
-var Image = /** @class */ (function (_super) {
-    __extends(Image, _super);
-    function Image(props) {
+var Img = /** @class */ (function (_super) {
+    __extends(Img, _super);
+    function Img(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
         console.info('Image component', props);
         return _this;
     }
-    Image.prototype.render = function () {
+    Img.prototype.render = function () {
         return (React.createElement("img", { src: this.props.src, alt: this.props.alt, className: this.props.className }));
     };
-    return Image;
+    return Img;
 }(React.Component));
-exports.default = Image;
+exports.default = Img;

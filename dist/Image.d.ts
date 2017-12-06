@@ -8,7 +8,7 @@ export interface Props {
 /**
  * Renders an image.
  */
-export default class Image extends React.Component<Props, any> {
+export default class Img extends React.Component<Props, any> {
     state: any;
     props: Props;
     constructor(props: Props);

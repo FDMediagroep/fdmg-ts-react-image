@@ -5,7 +5,7 @@
   "main": "dist/Image.js",
   "types": "dist/Image.d.ts",
   "scripts": {
-    "release": "tsc -d",
+    "release": "npm install && tsc -d",
     "test": "jest",
     "updateSnapshot": "jest --updateSnapshot",
     "u": "npm test -- -u"

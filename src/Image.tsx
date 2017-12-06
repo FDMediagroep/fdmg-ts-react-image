@@ -1,5 +1,4 @@
 import * as React from 'react';
-import {MouseEvent} from "react";
 
 export interface Props {
     className?: string;
@@ -10,7 +9,7 @@ export interface Props {
 /**
  * Renders an image.
  */
-export default class Image extends React.Component<Props, any> {
+export default class Img extends React.Component<Props, any> {
     public state: any;
     public props: Props;
 

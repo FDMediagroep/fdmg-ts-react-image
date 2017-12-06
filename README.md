@@ -17,7 +17,7 @@ or
 ### TypeScript
 ```
 import * as React from 'react';
-import Image from 'fdmg-ts-react-image';
+import Img from 'fdmg-ts-react-image';
 
 export default class foo {
     public state: any;
@@ -30,7 +30,7 @@ export default class foo {
 
     render() {
         return (
-            <Image
+            <Img
                 src={"img/button.svg"} 
                 className="image-btn btn"
                 alt="Special button"

@@ -19,7 +19,6 @@ var Img = /** @class */ (function (_super) {
     function Img(props) {
         var _this = _super.call(this, props) || this;
         _this.props = props;
-        console.info('Image component', props);
         return _this;
     }
     Img.prototype.render = function () {

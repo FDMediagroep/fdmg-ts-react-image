@@ -6,16 +6,18 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import Img from "../src/Image";
 
-console.info = function() {};
+console.info = () => {};
 
-beforeAll(() => {
-    Enzyme.configure({ adapter: new Adapter() });
-});
+describe('Image', () => {
+    beforeAll(() => {
+        Enzyme.configure({ adapter: new Adapter() });
+    });
 
-test('Image renders correctly', () => {
-    let component = renderer.create(
-        <Img alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
-    );
-    let tree = component.toJSON();
-    expect(tree).toMatchSnapshot();
+    test('renders correctly', () => {
+        const component = renderer.create(
+            <Img alt={"alt-text"} src={'test.png'} className={'css-class-name'}/>
+        );
+        const tree = component.toJSON();
+        expect(tree).toMatchSnapshot();
+    });
 });

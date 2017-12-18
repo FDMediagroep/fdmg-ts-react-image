@@ -1,17 +1,17 @@
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-image/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-image?branch=master)
 
-[![npm version](https://badge.fury.io/js/fdmg-ts-react-image.svg)](https://badge.fury.io/js/fdmg-ts-react-image)
+[![npm version](https://badge.fury.io/js/%40fdmg%2Fts-react-image.svg)](https://badge.fury.io/js/%40fdmg%2Fts-react-image)
 
 # fdmg-ts-react-image-button
 [ReactJS](https://reactjs.org/) Image component. This component renders an image.
 
 ## Installation
-- Run `npm i --save-dev fdmg-ts-react-image`
+- Run `npm i --save-dev @fdmg/ts-react-image`
 
 or
 
-- Run `yarn add fdmg-ts-react-image --dev`
+- Run `yarn add @fdmg/ts-react-image --dev`
 
 ## Usage
 ### TypeScript

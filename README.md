@@ -1,4 +1,4 @@
-# fdmg-ts-react-image-button
+# fdmg-ts-react-image
 
 [![Build Status](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image.svg?branch=master)](https://travis-ci.org/FDMediagroep/fdmg-ts-react-image)
 [![Coverage Status](https://coveralls.io/repos/github/FDMediagroep/fdmg-ts-react-image/badge.svg?branch=master)](https://coveralls.io/github/FDMediagroep/fdmg-ts-react-image?branch=master)
